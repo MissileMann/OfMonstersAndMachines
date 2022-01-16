@@ -1,0 +1,28 @@
+{
+    "template": {
+        "type": "single",
+        "id": "missile:atlastemple"
+    },
+
+    "averageSpacing": 75,
+    "minimumSpacing": 50,
+    "avoidOthers": true,
+    
+    "placement": {
+        "offset": 1,
+        "terraform": 0,
+        "minY": 70,
+        "maxY": 150,
+        "type": "surface"
+    },
+
+    "dimensions": [
+        "minecraft:overworld"
+    ],
+
+    "biomes": [
+        "#plains",
+        "#desert"
+    ]
+
+}
