@@ -1,0 +1,14 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 32
+    },
+    {
+      "item": "kubejs:gun_part",
+      "count": 1
+    }
+  ],
+  "result": { "item": "cgm:grenade_launcher" }
+}

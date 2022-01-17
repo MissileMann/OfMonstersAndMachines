@@ -1,0 +1,14 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 38
+    },
+    {
+      "item": "kubejs:gun_part",
+      "count": 1
+    }
+  ],
+  "result": { "item": "cgm:mini_gun" }
+}
