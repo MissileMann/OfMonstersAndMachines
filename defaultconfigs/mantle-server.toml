@@ -1,3 +1,0 @@
-#Preferences for outputs from tags used in automatic compat in recipes
-tagPreferences = ["minecraft", "create", "createaddition", "thermal", "immersiveengineering", "jaopca", "botania", "quark", "tconstruct"]
-
