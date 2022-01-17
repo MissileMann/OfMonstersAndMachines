@@ -14,5 +14,5 @@
 	#Range: 1.0 ~ 512.0
 	maxEffectRenderDistance = 64.0
 	#Whitelist of dimension ID's that will have special astral sorcery sky rendering
-	skyRenderingEnabled = []
+	skyRenderingEnabled = [minecraft:overworld]
 
