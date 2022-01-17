@@ -1,0 +1,1191 @@
+{
+	id: "26AAB895E80CCAFF"
+	group: ""
+	order_index: 0
+	filename: "intro"
+	title: "Intro"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tips"
+			icon: "dummmmmmy:target_dummy_placer"
+			x: 0.0d
+			y: 0.0d
+			description: ["The tome contains most of the books you will need for the mods in this modpack. Make sure to check out some of the books to see what mods you'd be interested in."]
+			id: "3A41AB9A574EAB05"
+			tasks: [{
+				id: "5F0CBA3714310029"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "36DB9B1B279ECDD4"
+					type: "item"
+					item: {
+						id: "drinkbeer:beer_mug_apple_lambic"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2A7FBACB75D4632F"
+					type: "item"
+					item: {
+						id: "create:sweet_roll"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+					random_bonus: 2
+				}
+				{
+					id: "6958B101A80AE1D0"
+					type: "item"
+					item: {
+						id: "akashictome:tome"
+						Count: 1b
+						tag: {
+							"akashictome:is_morphing": 1b
+							"akashictome:data": {
+								tconstruct: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:materials_and_you"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Materials and You"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Materials and You\"}]}"
+										}
+									}
+								}
+								resourcefulbees: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Fifty Shades of Bees"
+										}
+										"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Fifty Shades of Bees\"}]}"
+										}
+									}
+								}
+								astralsorcery: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "astralsorcery:tome"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Astral Tome"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Astral Tome\"}]}"
+										}
+									}
+								}
+								theoneprobe: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "theoneprobe:probenote"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "The One Probe Read Me"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The One Probe Read Me\"}]}"
+										}
+									}
+								}
+								ftbquests: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "ftbquests:book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Quest Book"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Quest Book\"}]}"
+										}
+									}
+								}
+								alexsmobs: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "alexsmobs:animal_dictionary"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Animal Dictionary"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Animal Dictionary\"}]}"
+										}
+									}
+								}
+								immersiveengineering: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "immersiveengineering:manual"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Engineer's Manual"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Engineer's Manual\"}]}"
+										}
+									}
+								}
+								eidolon: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "eidolon:codex"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Ars Ecclesia"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Ars Ecclesia\"}]}"
+										}
+									}
+								}
+								turtlemancy: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Turtlenomicon"
+										}
+										"patchouli:book": "turtlemancy:turtlenomicon"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Turtlenomicon\"}]}"
+										}
+									}
+								}
+								botania: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "botania:lexicon"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Lexica Botania"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Lexica Botania\"}]}"
+										}
+									}
+								}
+								feywild: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "feywild:feywild_lexicon"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Feywild Lexicon"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Feywild Lexicon\"}]}"
+										}
+									}
+								}
+								thermal: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Thermalpedia"
+										}
+										"patchouli:book": "thermal:guidebook"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Thermalpedia\"}]}"
+										}
+									}
+								}
+								integratedtunnels: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "On the Dynamics of Integration"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"On the Dynamics of Integration\"}]}"
+										}
+									}
+								}
+								enigmaticlegacy: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "enigmaticlegacy:the_acknowledgment"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "The Acknowledgment"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Acknowledgment\"}]}"
+										}
+									}
+								}
+								pedestals: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Pedestals"
+										}
+										"patchouli:book": "pedestals:manual"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Pedestals\"}]}"
+										}
+									}
+								}
+								engineersdecor: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Engineer's Decor"
+										}
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Engineer's Decor\"}]}"
+										}
+									}
+								}
+								outvoted: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Outvoted"
+										}
+										"patchouli:book": "outvoted:book"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Outvoted\"}]}"
+										}
+									}
+								}
+								mahoutsukai: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "mahoutsukai:guidebook"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Mahou Tsukai Knowledge Compendium"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Mahou Tsukai Knowledge Compendium\"}]}"
+										}
+									}
+								}
+								solcarrot: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "solcarrot:food_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Food Book"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Food Book\"}]}"
+										}
+									}
+								}
+								ars_nouveau: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "ars_nouveau:worn_notebook"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Worn Notebook"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Worn Notebook\"}]}"
+										}
+									}
+								}
+								restored_earth: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "restored_earth:journal"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Journal"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Journal\"}]}"
+										}
+									}
+								}
+								buddycards: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Buddycard Guidebook"
+										}
+										"patchouli:book": "buddycards:buddycard_guidebook"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Buddycard Guidebook\"}]}"
+										}
+									}
+								}
+								supplementaries: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "§6Supplemental Manual"
+										}
+										"patchouli:book": "supplementaries:supplementaries_guide"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"§6Supplemental Manual\"}]}"
+										}
+									}
+								}
+								betterendforge: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "betterendforge:guidebook"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "The End for Dummies"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The End for Dummies\"}]}"
+										}
+									}
+								}
+								cyclic: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Cyclic Guidebook"
+										}
+										"patchouli:book": "cyclic:cyclic_guide_book"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cyclic Guidebook\"}]}"
+										}
+									}
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "MrCrayfish's Gun Mod"
+			icon: {
+				id: "cgm:workbench"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Guns! Guns! Guns!"
+			description: [
+				"You want guns? Make this then. :)"
+				"Requires getting into Create and Immersive Engineering"
+			]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "7AB296D552F53EE8"
+			tasks: [{
+				id: "6FDE8A94910634E7"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: {
+				id: "create:cogwheel"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: -1.0d
+			description: ["Make useful machines and tools with Create!"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "5A7CA74EB5F81829"
+			tasks: [{
+				id: "7D63DE512A455582"
+				type: "checkmark"
+				title: "Create"
+			}]
+		}
+		{
+			title: "Thermal Expansion"
+			icon: "thermal:machine_frame"
+			x: 0.0d
+			y: 1.5d
+			description: ["To get into thermal expansion machines, you will need to get a bit into Create and Immersive engineering"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "00E2DE53CC706972"
+			tasks: [{
+				id: "65C925050B32023A"
+				type: "checkmark"
+				title: "Thermal Expansion"
+			}]
+		}
+		{
+			title: "Immersive Engineering"
+			icon: {
+				id: "immersiveengineering:workbench"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: -1.0d
+			description: ["Become an engineer today! Only your entire life savings and never being out of debt!"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "69633205F1F525F9"
+			tasks: [{
+				id: "432FFEAF1BFA5445"
+				type: "checkmark"
+				title: "Immersive Engineering"
+			}]
+		}
+		{
+			title: "Relics, Artifacts, Baubles, and More!"
+			icon: "artifacts:golden_hook"
+			x: 1.5d
+			y: 0.0d
+			description: ["Find useful items while exploring the world!"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "6410C71C1ED1A56A"
+			tasks: [{
+				id: "19BE5285D0BAB3D4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Magic Mods"
+			icon: {
+				id: "eidolon:warlock_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 1.0d
+			description: ["Multiple magic mods! Check out Botania, Astral Sorcery, Turtlemancy, Eidolon, Ars Nouveau, etc."]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "64E11920CC70C5E9"
+			tasks: [{
+				id: "05E71E196AF288E2"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Beasts Roaming the Lands"
+			icon: {
+				id: "iceandfire:dragon_skull_fire"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			description: ["There are many animals and creatures for you to find and fight!"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "2135F1E68EB78A51"
+			tasks: [{
+				id: "7255D6E883AE1FF3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Storage"
+			icon: {
+				id: "refinedstorage:purple_controller"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			description: ["There are multiple storage mods. Storage Drawers, Iron Chests, Integrated Terminals, Refined Storage, etc."]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "19067CDE0B4FCCEB"
+			tasks: [{
+				id: "14D08C42B0E3101C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2656508469B2CB7A"
+				type: "item"
+				item: {
+					id: "ironchest:iron_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:cursed_ring"
+			x: 0.0d
+			y: -3.5d
+			shape: "pentagon"
+			description: [
+				"If you want a real challenge, accept this quest and be bequeathed this cursed ring. Beware of the dangers that come of it..."
+				"{image:bountifulbaubles:textures/item/obsidian_skull.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3A41AB9A574EAB05"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "718C60B6977D5C59"
+			tasks: [{
+				id: "2A47281DB6E37F10"
+				type: "checkmark"
+				title: "THE CURSED RING!!!!!"
+			}]
+			rewards: [{
+				id: "423D15608A2C7B2C"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:cursed_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Buddy Cards"
+			icon: "buddycards:pack.1"
+			x: 2.0d
+			y: -1.0d
+			description: ["Gotta Collect Them All!"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "17B34D46F2641FDE"
+			tasks: [{
+				id: "3D9DD29D5FBC8E5C"
+				type: "checkmark"
+				title: "Buddy Cards"
+			}]
+			rewards: [{
+				id: "4241F2997D437AA4"
+				type: "item"
+				item: {
+					id: "buddycards:mystery_pack"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Inventory Pets"
+			icon: {
+				id: "inventorypets:pet_pig"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: -1.0d
+			description: ["Find Inventory Pets around the world. Tip: You might find something in the skies"]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "51FB54E0962D73B2"
+			tasks: [{
+				id: "103C54D047AD2A69"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tinkers Construct"
+			icon: {
+				id: "tconstruct:tinkers_anvil"
+				Count: 1b
+				tag: {
+					texture: "immersiveengineering:storage_steel"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "0493C6913E085117"
+			tasks: [{
+				id: "0B56D330F66F92BB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tetra"
+			icon: {
+				id: "tetra:modular_double"
+				Count: 1b
+				tag: {
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "6b390dc0-a758-4dcc-b547-d2a9c762416e"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 1.0d
+			description: ["Tetra is one of the ways you can make custom tools and even a tool belt."]
+			dependencies: ["3A41AB9A574EAB05"]
+			id: "6366B8AC503A0448"
+			tasks: [{
+				id: "2E49DE749FE1D2E0"
+				type: "checkmark"
+				title: "Tetra"
+			}]
+		}
+		{
+			title: "Spartan Weaponry"
+			icon: {
+				id: "spartanweaponry:greatsword_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 2.5d
+			description: ["Create a variety of different weapons from Spartan Weaponry!"]
+			id: "74B148B62CF75F04"
+			tasks: [{
+				id: "3979DF428CB650DD"
+				type: "checkmark"
+				title: "Yeppers"
+			}]
+		}
+		{
+			title: "Tinker's Construct"
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 7.7000003f
+						"tconstruct:attack_damage": 4.0f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 400.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "bettercompat:mana"
+							level: 3s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"bettercompat:manasteel"
+						"bettercompat:manasteel"
+						"bettercompat:manasteel"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: 2.5d
+			description: ["Create custom tools with Tinker's Construct"]
+			id: "0354976CE15611AB"
+			tasks: [{
+				id: "722B9DBD1307B039"
+				type: "checkmark"
+				title: "pogchamp"
+			}]
+			rewards: [{
+				id: "2BAE2CCDA47F770A"
+				type: "item"
+				item: {
+					id: "tconstruct:bacon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Dimensions"
+			icon: {
+				id: "twilightforest:twilight_portal_miniature_structure"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 2.5d
+			description: ["There are a number of dimensions. The Bumblezone, Twilight Forest, Atum, Undergarden, Afterlight, Blue Skies, and a couple more."]
+			id: "2560B60C745B867F"
+			tasks: [{
+				id: "15B05EC05BA08AA8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The End"
+			icon: {
+				id: "endrem:ancient_portal_frame"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: 2.5d
+			description: ["The end is harder to get to now. You need 12 different eyes that you can find throughout the overworld and nether. Look up @endre in jei to see what they are"]
+			id: "05B356C26990CD2B"
+			tasks: [{
+				id: "2AB91B9E3C346A26"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "You did all the required checkmarks!"
+			icon: {
+				id: "jellyfishing:triple_gooberberry_sunrise"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 4.0d
+			shape: "heart"
+			hide_dependency_lines: true
+			dependencies: [
+				"05B356C26990CD2B"
+				"5A7CA74EB5F81829"
+				"2560B60C745B867F"
+				"17B34D46F2641FDE"
+				"69633205F1F525F9"
+				"51FB54E0962D73B2"
+				"64E11920CC70C5E9"
+				"7AB296D552F53EE8"
+				"6410C71C1ED1A56A"
+				"74B148B62CF75F04"
+				"19067CDE0B4FCCEB"
+				"6366B8AC503A0448"
+				"2135F1E68EB78A51"
+				"00E2DE53CC706972"
+				"0493C6913E085117"
+				"3A41AB9A574EAB05"
+			]
+			hide: true
+			id: "36841D5B3E2DDA88"
+			tasks: [{
+				id: "31EADB9817C698CA"
+				type: "checkmark"
+				title: "pog"
+			}]
+			rewards: [
+				{
+					id: "55CA6B124C588A44"
+					type: "item"
+					item: {
+						id: "ironchest:gold_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7BFE9F44BB050C18"
+					type: "item"
+					item: {
+						id: "drinkbeer:beer_mug_pumpkin_kvass"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "073136D5D8E659E7"
+					type: "item"
+					item: {
+						id: "farmersdelight:barbecue_stick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+					random_bonus: 6
+				}
+				{
+					id: "340B18A86AA955EA"
+					type: "item"
+					item: {
+						id: "buddycards:mystery_pack"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "3948506BDAC76258"
+					type: "item"
+					item: {
+						id: "cgm:pistol"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Attachments: {
+								Barrel: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "cgm:silencer"
+									Count: 1b
+									tag: {
+										Color: 11546150
+									}
+								}
+								Scope: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "cgm:long_scope"
+									Count: 1b
+									tag: {
+										Color: 11546150
+									}
+								}
+								Stock: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "cgm:tactical_stock"
+									Count: 1b
+								}
+							}
+							Color: 11546150
+							display: {
+								Name: "{\"text\":\"The PokeLocker's Pistol\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0DE16F62E28BE36E"
+					type: "item"
+					item: {
+						id: "cgm:basic_bullet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+					random_bonus: 16
+				}
+				{
+					id: "179DF6B94D6FC30F"
+					type: "item"
+					item: {
+						id: "paraglider:stamina_vessel"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Spirit Orbs"
+			icon: {
+				id: "paraglider:spirit_orb"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 3.5d
+			description: ["You can use spirit orbs at goddess statues that spawn around the world to get heart and stamina canisters. Get spirit orbs from The Wither and The Elder Guardian."]
+			id: "32AF8C6093233420"
+			tasks: [{
+				id: "0490B3E19874FF37"
+				type: "checkmark"
+				title: "Spirit Orbs"
+			}]
+			rewards: [{
+				id: "1480B66BD8111249"
+				type: "item"
+				item: {
+					id: "paraglider:spirit_orb"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+	]
+}
