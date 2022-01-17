@@ -1,0 +1,10 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 7, 2022 4:19:29 AM
+
+#allurement:unusable_on_horse_armor
+- minecraft:aqua_affinity
+- allurement:alleviating
+- allurement:vengeance
+
+#forbidden_arcanus:indestructible_blacklisted
+- minecraft:unbreaking
+- minecraft:mending
