@@ -73,9 +73,9 @@ onEvent('recipes', (event) => {
     //event.replaceOutput({}, '#forge:plates/constantan', 'thermal:constantan_plate')
     //event.replaceOutput({}, '#forge:dusts/constantan', 'thermal:constantan_dust')
 
-    ////eidolon pewter
-    //event.recipes.createMixing('eidolon:pewter_ingot', ['#forge:ingots/lead', '#forge:ingots/iron']).superheated()
-    //event.recipes.thermal.smelter('eidolon:pewter_ingot', ['#forge:ingots/lead', '#forge:ingots/iron'])
+    //eidolon pewter
+    event.recipes.createMixing('eidolon:pewter_ingot', ['#forge:ingots/lead', '#forge:ingots/iron']).superheated()
+    event.recipes.thermal.smelter('eidolon:pewter_ingot', ['#forge:ingots/lead', '#forge:ingots/iron'])
 
     ////immersive dusts
     //event.replaceOutput({}, '#forge:dusts/uranium', 'immersiveengineering:dust_uranium')
@@ -106,7 +106,7 @@ onEvent('recipes', (event) => {
     //event.recipes.thermal.press('immersiveengineering:plate_aluminum', '#forge:ingots/aluminum')
 
     //wires
-    event.replaceOutput({}, 'immersiveengineering:wire_copper', 'createaddition:copper_wire')
+    event.replaceOutput({}, 'createaddition:copper_wire', 'immersiveengineering:wire_copper')
     event.replaceInput({}, 'immersiveengineering:wire_copper', '#forge:wires/copper')
 
     //misc
