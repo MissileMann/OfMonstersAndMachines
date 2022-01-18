@@ -1,0 +1,38 @@
+#List of curio slot type settings
+[[curiosSettings]]
+  identifier = "ring"
+  override = true
+  size = 5
+[[curiosSettings]]
+  identifier = "charm"
+  override = true
+  size = 4
+[[curiosSettings]]
+  identifier = "belt"
+  size = 4
+  override = true
+[[curiosSettings]]
+  identifier = "body"
+  size = 2
+  override = true
+[[curiosSettings]]
+  identifier = "back"
+  size = 2
+  override = true
+[[curiosSettings]]
+  identifier = "head"
+  size = 1
+  override = true
+[[curiosSettings]]
+  identifier = "necklace"
+  size = 2
+  override = true
+[[curiosSettings]]
+  identifier = "toad_eye_holder"
+  size = 1
+  override = true
+
+
+
+
+
