@@ -67,7 +67,7 @@
 #Everything to do with world generation
 [worldgen]
 	#Generate Cobalt
-	generateCobalt = true
+	generateCobalt = false
 	#Generate Copper
 	generateCopper = false
 	#Approx Ores per Chunk
