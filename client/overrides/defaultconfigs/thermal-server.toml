@@ -192,23 +192,23 @@
 
 ["World Generation"]
 	#Set to FALSE to prevent 'Thermal Series' Apatite from generating.
-	Apatite = true
+	Apatite = false
 	#Set to FALSE to prevent 'Thermal Series' Cinnabar from generating.
-	Cinnabar = true
+	Cinnabar = false
 	#Set to FALSE to prevent 'Thermal Series' Niter from generating.
 	Niter = true
 	#Set to FALSE to prevent 'Thermal Series' Sulfur from generating.
-	Sulfur = true
+	Sulfur = false
 	#Set to FALSE to prevent 'Thermal Series' Copper from generating.
 	Copper = false
 	#Set to FALSE to prevent 'Thermal Series' Tin from generating.
-	Tin = true
+	Tin = false
 	#Set to FALSE to prevent 'Thermal Series' Lead from generating.
-	Lead = true
+	Lead = false
 	#Set to FALSE to prevent 'Thermal Series' Silver from generating.
-	Silver = true
+	Silver = false
 	#Set to FALSE to prevent 'Thermal Series' Nickel from generating.
-	Nickel = true
+	Nickel = false
 	#Set to FALSE to prevent 'Thermal Series' Oil Sands from generating.
 	Oil = true
 
