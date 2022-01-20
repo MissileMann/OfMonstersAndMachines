@@ -75,7 +75,7 @@
 	invVal = "BOTTOM"
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 50
+	yPotionPos = 34
 	#OffHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	offVal = "BOTTOM"
@@ -114,7 +114,7 @@
 	invPosX = -103
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	potHalign = "LEFT"
+	potHalign = "RIGHT"
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
 	invPosY = 20
@@ -147,7 +147,7 @@
 	mainPosY = 71
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 7
+	xPotionPos = 76
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
 	chestPosX = 103
@@ -174,7 +174,7 @@
 	arrHal = "MIDDLE"
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	potValign = "TOP"
+	potValign = "CENTER"
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
 	arrPosX = 103
