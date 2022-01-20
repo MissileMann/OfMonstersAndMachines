@@ -4,7 +4,7 @@
 	caught_jellyfish_sting = false
 	#Biome Weight of Jellyfish Fields
 	#Range: 1 ~ 100
-	jellyfish_fields_weight = 6
+	jellyfish_fields_weight = 3
 	#Should Jellyfish be fishable with a fishing rod?
 	jellyfish_fishable = true
 	#Should Jellyfish Nets be fishable with a fishing rod?
