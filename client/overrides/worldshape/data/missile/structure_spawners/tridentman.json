@@ -1,0 +1,35 @@
+{
+  "template": {
+    "type": "single",
+    "id": "missile:tridentman"
+  },
+
+  "averageSpacing": 32,
+  "avoidOthers": true,
+
+  "placement": {
+    "offset": 1,
+    "terraform": 0,
+    "minY": 70,
+    "maxY": 200,
+    "type": "surface"
+  },
+
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+
+  "biomes": [
+    "#taiga",
+    "#extreme_hills",
+    "#jungle",
+    "#plains",
+    "#savanna",
+    "#forest",
+    "#swamp",
+    "#mushroom",
+    "#icy",
+    "#snowy"
+  ]
+
+}
