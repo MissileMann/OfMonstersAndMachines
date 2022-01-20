@@ -1,7 +1,7 @@
 onEvent('jei.hide.items', event => {
     const unsee = ['iceandfire:copper_ingot', 'iceandfire:copper_nugget', 'iceandfire:silver_ingot', 'iceandfire:silver_nugget', 'iceandfire:copper_ore', 'iceandfire:silver_ore',
         'iceandfire:silver_block', 'iceandfire:copperblock', 'thermal:copper_ore', 'thermal:copper_ingot', 'thermal:copper_nugget', 'thermal:copper_block', 'thermal:iron_plate', 'thermal:gold_plate', 'thermal:copper_plate',
-        'immersiveengineering:stick_iron', 'immersiveposts:stick_gold', 'immersiveengineering:wire_copper', 'tconstruct:copper_ore', 'tconstruct:copper_block', 'tconstruct:copper_ingot', 'tconstruct:copper_nugget', 'morecreatestuffs:crushed_cobalt_ore',
+        'immersiveengineering:stick_iron', 'immersiveposts:stick_gold', 'createaddition:copper_wire', 'tconstruct:copper_ore', 'tconstruct:copper_block', 'tconstruct:copper_ingot', 'tconstruct:copper_nugget', 'morecreatestuffs:crushed_cobalt_ore',
         'immersiveposts:stick_copper', 'steampowered:bronze_sheet', 'cyclic:heart', 'cyclic:heart_empty'    ]
     unsee.forEach(itemtohide => {
         event.hide(itemtohide)
