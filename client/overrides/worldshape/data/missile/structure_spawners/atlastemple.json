@@ -4,8 +4,7 @@
         "id": "missile:atlastemple"
     },
 
-    "averageSpacing": 75,
-    "minimumSpacing": 50,
+    "averageSpacing": 50,
     "avoidOthers": true,
     
     "placement": {
@@ -22,7 +21,11 @@
 
     "biomes": [
         "#plains",
-        "#desert"
+        "#desert",
+        "#savanna",
+        "#forest",
+        "#taiga",
+        "#snowy"
     ]
 
 }
